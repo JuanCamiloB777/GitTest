@@ -1,0 +1,15 @@
+const nombre = ("Juan Camilo Bohorquez Pulido")
+const edad = 21
+const ciudad = "bogota"
+const empleo = true
+let lenguaje= "JavaScript"
+console.log("========= CARNET GENERATION ========")
+console.log(`Nombre: ${nombre}`)
+console.log(`Ciudad: ${ciudad}`)
+console.log(`Edad: ${edad}`)
+console.log(`Busca su primer empleo tech: ${empleo}`)
+console.log(`Quiere dominar:${lenguaje}`)
+console.log("=====================================")
+console.log("Tipos:",typeof nombre, typeof edad, typeof ciudad, typeof empleo)
+console.log(`Feliz cumpleaños, ${nombre}`)
+console.log(`Ahora tienes ${edad + 1} años`)
